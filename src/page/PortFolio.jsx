@@ -10,12 +10,12 @@ import {
   SiExpress,
   SiNextdotjs,
   SiGit,
+  SiGithub,
   SiMui,
   SiTailwindcss,
   SiBootstrap,
   SiRedux,
   SiFirebase,
-  SiVisualstudiocode,
 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -283,17 +283,15 @@ export default function Portfolio() {
             { icon: <SiExpress size={40} />, label: "Express.js" },
             { icon: <SiMongodb size={40} />, label: "MongoDB" },
             { icon: <SiNextdotjs size={40} />, label: "Next.js" },
-            { icon: <FaReact size={40} />, label: "React Native" },
-            { icon: <SiHtml5 size={40} />, label: "HTML5" },
-            { icon: <SiCss3 size={40} />, label: "CSS3" },
-            { icon: <SiGit size={40} />, label: "Git" },
-            { icon: <FaGithub size={40} />, label: "GitHub" },
-            { icon: <SiMui size={40} />, label: "Material UI" },
-            { icon: <SiTailwindcss size={40} />, label: "TailwindCSS" },
-            { icon: <SiBootstrap size={40} />, label: "Bootstrap" },
             { icon: <SiRedux size={40} />, label: "Redux" },
             { icon: <SiFirebase size={40} />, label: "Firebase" },
-            { icon: <SiVisualstudiocode size={40} />, label: "VS Code" },
+            { icon: <SiHtml5 size={40} />, label: "HTML5" },
+            { icon: <SiCss3 size={40} />, label: "CSS3" },
+            { icon: <SiTailwindcss size={40} />, label: "Tailwind CSS" },
+            { icon: <SiBootstrap size={40} />, label: "Bootstrap" },
+            { icon: <SiMui size={40} />, label: "Material UI" },
+            { icon: <SiGit size={40} />, label: "Git" },
+            { icon: <SiGithub size={40} />, label: "GitHub" },
           ].map((skill, index) => (
             <Box
               key={index}
