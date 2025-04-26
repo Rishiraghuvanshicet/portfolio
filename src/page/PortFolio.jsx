@@ -9,6 +9,13 @@ import {
   SiCss3,
   SiExpress,
   SiNextdotjs,
+  SiGit,
+  SiMui,
+  SiTailwindcss,
+  SiBootstrap,
+  SiRedux,
+  SiFirebase,
+  SiVisualstudiocode,
 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -279,6 +286,14 @@ export default function Portfolio() {
             { icon: <FaReact size={40} />, label: "React Native" },
             { icon: <SiHtml5 size={40} />, label: "HTML5" },
             { icon: <SiCss3 size={40} />, label: "CSS3" },
+            { icon: <SiGit size={40} />, label: "Git" },
+            { icon: <FaGithub size={40} />, label: "GitHub" },
+            { icon: <SiMui size={40} />, label: "Material UI" },
+            { icon: <SiTailwindcss size={40} />, label: "TailwindCSS" },
+            { icon: <SiBootstrap size={40} />, label: "Bootstrap" },
+            { icon: <SiRedux size={40} />, label: "Redux" },
+            { icon: <SiFirebase size={40} />, label: "Firebase" },
+            { icon: <SiVisualstudiocode size={40} />, label: "VS Code" },
           ].map((skill, index) => (
             <Box
               key={index}
