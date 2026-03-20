@@ -1,5 +1,5 @@
 import { Typography, Grid, Card, Box } from "@mui/material";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
 
 const animation = {
@@ -56,7 +56,7 @@ const TimelineDot = ({ icon }) => (
 
 export default function Qualification() {
   return (
-    <motion.div
+    <Motion.div
       style={sectionStyle}
       initial="initial"
       whileInView="animate"
@@ -71,7 +71,7 @@ export default function Qualification() {
       <Grid container spacing={6} justifyContent="center" alignItems="center" direction="column">
         {/* Education Section */}
         <Grid item xs={12} sm={10} md={8}>
-          <motion.div
+          <Motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -95,7 +95,7 @@ export default function Qualification() {
                 SRMS COLLEGE OF ENGINEERING & TECHNOLOGY (AKTU UNIVERSITY)
               </Typography>
             </Card>
-          </motion.div>
+          </Motion.div>
         </Grid>
 
         {/* Line Separator */}
@@ -111,7 +111,7 @@ export default function Qualification() {
 
         {/* Experience Section */}
         <Grid item xs={12} sm={10} md={8}>
-          <motion.div
+          <Motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -131,9 +131,9 @@ export default function Qualification() {
                 March 2025 - April 2025
               </Typography>
             </Card>
-          </motion.div>
+          </Motion.div>
         </Grid>
       </Grid>
-    </motion.div>
+    </Motion.div>
   );
 }
